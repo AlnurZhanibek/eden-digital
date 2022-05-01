@@ -4,6 +4,44 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #00b1aa;
+}
+
 body {
+  background-color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
+}
+
+.top-header {
+  position: fixed;
+  padding: 30px 60px;
+}
+
+.top-header .logo .logo-image {
+  margin-right: 20px;
+}
+
+section.block {
+  min-height: 100vh;
+}
+
+.main-hero {
+  height: 100vh;
+}
+
+.about-us {
+  background-color: #96ffff;
+}
+
+.technologies {
+  background-color: #c7bdff;
+}
+
+.team {
+  background-color: #e7f590;
+}
+
+.contact {
+  background-color: #9aff77;
 }
