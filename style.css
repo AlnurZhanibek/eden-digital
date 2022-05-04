@@ -6,6 +6,7 @@
 
 :root {
   --primary-color: #00b1aa;
+  --about-us-text-color: #1B7474;
 }
 
 body {
@@ -44,4 +45,75 @@ section.block {
 
 .contact {
   background-color: #9aff77;
+}
+
+.about-us__wrapper{
+  padding: 200px 20px 0;
+}
+
+.about-us__wrapper h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.about-us__text{
+  margin-top: 60px;
+  text-align: center;
+  color: rgba(27, 116, 116, 1);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.services{
+  margin: 200px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.service{
+  width: 40%;
+  box-shadow: -9px 9px 18px rgb(74 121 121 / 20%), 9px -9px 18px rgb(74 121 121 / 20%), -9px -9px 18px rgb(228 255 255 / 50%), 9px 9px 23px rgb(74 121 121 / 90%);
+  border-radius: 30px;
+  min-height: 350px;
+  padding: 30px 50px;
+}
+
+.service__title{
+  color: var(--about-us-text-color);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.service__price{
+  font-size: 20px;
+  color: var(--about-us-text-color);
+}
+
+.service__details{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--about-us-text-color);
+}
+
+.service__button{
+  color: #38A9A933;
+  cursor: pointer;
+  box-shadow: -1px 1px 2px rgba(56, 169, 169, 0.2), 1px -1px 2px rgba(56, 169, 169, 0.2), -1px -1px 2px rgba(102, 255, 255, 0.9), 1px 1px 3px rgba(56, 169, 169, 0.9);
+  border: none;
+  background: #4FEEEE;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 40px;
+  margin-top: 44px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+
+.service__button:hover{
+  transform: scale(1.05);
 }
