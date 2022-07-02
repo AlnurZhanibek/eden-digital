@@ -24,6 +24,23 @@ body {
 
 section.block {
   min-height: 100vh;
+  text-align: center;
+}
+
+section.block h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+section.block h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+section.block p {
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .main-hero {
@@ -35,7 +52,12 @@ section.block {
 }
 
 .technologies {
-  background-color: #c7bdff;
+  background-image: linear-gradient(180deg, #ab9dff 90.84%, #8672ff 100%);
+  padding: 200px;
+}
+
+.technologies > *:not(last-child) {
+  margin-bottom: 30px;
 }
 
 .team {
